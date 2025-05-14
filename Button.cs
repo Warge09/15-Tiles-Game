@@ -8,5 +8,19 @@ namespace Button
 {
     abstract class Button
     {
+
+        public string name;
+        
+
+        public Button(string name)
+        {
+            this.name = name;
+        }
+
+    }
+
+    ~Button()
+    {
+        // Destructor
     }
 }
